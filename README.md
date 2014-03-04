@@ -1,7 +1,9 @@
 # jekyll-elasticsearch
 
-jekyll-elasticsearch is a Jekyll plugin. It create elasticsearch index of jekyll posts on jekyll build.  
-This plugin will add title, url, content, date and id(generated from url) of each post to elasticsearch.  
+[![Dependency Status](https://gemnasium.com/tjun/jekyll-elasticsearch.png)](https://gemnasium.com/tjun/jekyll-elasticsearch)
+
+jekyll-elasticsearch is a Jekyll plugin. It create elasticsearch index of jekyll posts on jekyll build.
+This plugin will add title, url, content, date and id(generated from url) of each post to elasticsearch.
 It also rewrite existed post data on each build, and find deleted post from elasticsearch and remove it.
 
 tested on Elasticsearch ver.1.00 and gems jekyll(1.4.3), elasticsearch (1.0.0).
