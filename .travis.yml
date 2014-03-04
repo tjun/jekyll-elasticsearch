@@ -1,0 +1,12 @@
+language: ruby
+bundler_args: --without debug
+rvm:
+  - 2.1.0
+  - 2.0.0
+  - 1.9.3
+notifications:
+  email:
+    recipients:
+      - t.junichiro@gmail.com
+    on_success: change
+    on_failure: always
